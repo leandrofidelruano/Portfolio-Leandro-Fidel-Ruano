@@ -5,23 +5,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="https://leandrofidelruano.vercel.app">
     <link rel="stylesheet" href="styles.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index.js"></script>
     <title>Portfolio - Leandro Fidel Ruano</title>
 </head>
 <body>
     <header class="header">
         <nav class="nav-links">
-            <a href="#start">Leandro</a>
-            <a href="#about-me">Sobre mí</a>
-            <a href="#proyects">Proyectos</a>
-            <a href="#experience">Experiencia</a>
-            <a href="resources.html">Recursos</a>
+            <a href="index.html">Leandro</a>
+            <a id="aboutMe" href="#about-me"></a>
+            <a id="proyects" href="#proyects"></a>
+            <a id="experience" href="#experience"></a>
+            <a id="resources" href="resources.html"></a>
+            <select id="languageSelector">
+                <img src="lang/es.svg" alt="Español" class="es">
+                <option value="es">Español</option>
+                <img src="lang/en.svg" alt="English" class="en">
+                <option value="en">Inglés</option>
+            </select>
         </nav>
-        <button>Contacto</button>
+        <button id="contact"></button>
     </header>
     <main>
-        <section>
-            <h1>Resources</h1>
-        </section>
+        <h1>Recursos</h1>
+        <div class="grid-container">
+            <a href="https://shots.so">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle1"></h1>
+                        <p id="cardDescription1"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://vercel.com/geist/icons">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle5"></h1>
+                        <p id="cardDescription5"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://free-for.dev/#/">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle6"></h1>
+                        <p id="cardDescription6"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://cssgrid-generator.netlify.app">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle10"></h1>
+                        <p id="cardDescription10"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://animatedbackgrounds.me">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle11"></h1>
+                        <p id="cardDescription11"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://www.jsondataai.com">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle12"></h1>
+                        <p id="cardDescription12"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://grid.malven.co">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle13"></h1>
+                        <p id="cardDescription13"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://flexbox.malven.co">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle14"></h1>
+                        <p id="cardDescription14"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://www.tiobe.com/tiobe-index/">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle15"></h1>
+                        <p id="cardDescription15"></p>
+                    </section>
+                </div>
+            </a>
+            <a href="https://semver.org/lang/es/">
+                <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle16"></h1>
+                        <p id="cardDescription16"></p>
+                    </section>
+                </div>
+            </a>
+            <!-- Another card_element here -->
+            <div class="grid-subcontainer">
+                <h1 id="cardSubTitle1"></h1>
+                <a href="https://www.cypress.io">
+                    <div class="card-element">
+                    <section>
+                            <h1 id="cardTitle2"></h1>
+                            <p id="cardDescription2"></p>
+                        </section>
+                    </div>
+                </a>
+                <a href="https://betterstack.com">
+                    <div class="card-element">
+                    <section>
+                        <h1 id="cardTitle3"></h1>
+                            <p id="cardDescription3"></p>
+                        </section>
+                    </div>
+                </a>
+                <a href="https://migueljm.vercel.app">
+                    <div class="card-element">
+                        <section>
+                            <h1 id="cardTitle4"></h1>
+                            <p id="cardDescription4"></p>
+                        </section>
+                    </div>
+                </a>
+                <!-- Another "Inspiration" card_element here -->
+            </div>
+            <div class="grid-subcontainer">
+                <h1 id="cardSubTitle2"></h1>
+                <a href="https://fullstackopen.com/es/">
+                    <div class="card-element">
+                        <section>
+                            <h1 id="cardTitle7"></h1>
+                            <p id="cardDescription7"></p>
+                        </section>
+                    </div>
+                </a>
+                <a href="https://coddy.tech">
+                    <div class="card-element">
+                        <section>
+                            <h1 id="cardTitle8"></h1>
+                            <p id="cardDescription8"></p>
+                        </section>
+                    </div>
+                </a>
+                <a href="https://university.redis.com">
+                    <div class="card-element">
+                        <section>
+                            <h1 id="cardTitle9"></h1>
+                            <p id="cardDescription9"></p>
+                        </section>
+                    </div>
+                </a>
+                <!-- Another "Learning" card_element here -->
+            </div>
+            <!-- Another card_element here -->
+        </div>
     </main>
     <footer>
         <section class="top">

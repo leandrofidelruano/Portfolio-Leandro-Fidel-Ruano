@@ -1,0 +1,78 @@
+{
+    "header": {
+        "aboutMe": "Sobre mí",
+        "proyects": "Proyectos",
+        "experience": "Experiencia",
+        "resources": "Recursos",
+        "contact": "Contacto"
+    },
+    "main": {
+        "resources": "Resources"
+    },
+    "cardSubTitle1": "Inspiración",
+    "cardSubTitle2": "Aprendizaje",
+    "card1": {
+        "cardTitle1": "Shots",
+        "cardDescription1": "Shots es una plataforma para realizar maquetas rápidas con una imagen."
+    },
+    "card2": {
+        "cardTitle2": "Cypress",
+        "cardDescription2": "Cypress es un framwork para hacer tests de aplicaciones web."
+    },
+    "card3": {
+        "cardTitle3": "BetterStack",
+        "cardDescription3": "BetterStack permite ver el interior de cualquier pila, depurar cualquier problema y resolver cualquier incidente."
+    },
+    "card4": {
+        "cardTitle4": "Portafolio",
+        "cardDescription4": "Portafolio de Miguel Angel."
+    },
+    "card5": {
+        "cardTitle5": "Vercel Icons",
+        "cardDescription5": "Una colección de íconos usados en los productos de Vercel."
+    },
+    "card6": {
+        "cardTitle6": "Free for Developers",
+        "cardDescription6": "Una lista de softwares (SaaS, PaaS, IaaS, etc.) y otras ofertas de desarrolladores gratis."
+    },
+    "card7": {
+        "cardTitle7": "Full Stack Open",
+        "cardDescription7": "¡Aprende React, Redux, Node.js, MongoDB, GraphQL y TypeScript de una sola vez!"
+    },
+    "card8": {
+        "cardTitle8": "Coddy",
+        "cardDescription8": "Plataforma de cursos gratuitos."
+    },
+    "card9": {
+        "cardTitle9": "Redis University",
+        "cardDescription9": "Cursos online gratuitos por expertos en Redis."
+    },
+    "card10": {
+        "cardTitle10": "CSS Grid Generator",
+        "cardDescription10": "Herramienta generadora de código CSS Grid fácil y rápido."
+    },
+    "card11": {
+        "cardTitle11": "Animated Backgrounds",
+        "cardDescription11": "Colección de fondos web animados."
+    },
+    "card12": {
+        "cardTitle12": "JSON Data AI",
+        "cardDescription12": "Obtenga datos JSON sobre cualquier cosa con un mensaje. Conviértalo en un API endpoint. Empiece a hacer fetching."
+    },
+    "card13": {
+        "cardTitle13": "Visual Cheatsheet: Grid",
+        "cardDescription13": "Esta hoja de referencia visual incluye las propiedades CSS Grid presentadas de una manera que facilita comprender las opciones disponibles y encontrar lo que está buscando."
+    },
+    "card14": {
+        "cardTitle14": "Visual Cheatsheet: Flexbox",
+        "cardDescription14": "Esta hoja de referencia incluye las propiedades CSS Flexbox presentadas de una manera que facilita comprender las opciones disponibles y encontrar lo que está buscando."
+    },
+    "card15": {
+        "cardTitle15": "TIOBE Index",
+        "cardDescription15": "Es un indicador de la popularidad de los lenguajes de programación. Este índice se actuliza una vez al mes."
+    },
+    "card16": {
+        "cardTitle16": "Semantic Versioning",
+        "cardDescription16": "A este sistema lo llamamos \"Versión Semántica.\" Bajo este esquema, los números de versión y la forma en la que cambian transmiten el sentido del código y lo que ha sido modificado de una versión a otra."
+    }
+}

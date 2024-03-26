@@ -9,21 +9,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
     <script>hljs.highlightAll();</script>
+    <script src="index.js"></script>
+    
     <title>Portfolio - Leandro Fidel Ruano</title>
 </head>
 <body>
     <header class="header">
         <nav class="nav-links">
-            <a href="#start">Leandro</a>
-            <a href="#about-me">Sobre mí</a>
-            <a href="#proyects">Proyectos</a>
-            <a href="#experience">Experiencia</a>
-            <a href="resources.html">Recursos</a>
+            <a href="index.html">Leandro</a>
+            <a id="aboutMe" href="#about-me"></a>
+            <a id="proyects" href="#proyects"></a>
+            <a id="experience" href="#experience"></a>
+            <a id="resources" href="resources.html"></a>
+            <select id="languageSelector">
+                <img src="lang/es.svg" alt="Español" class="es">
+                <option value="es">Español</option>
+                <img src="lang/en.svg" alt="English" class="en">
+                <option value="en">English</option>
+            </select>
         </nav>
-        <button>Contacto</button>
+        <button id="contact"></button>
     </header>
     <main>
-        <section id="start">
+        <section>
             <article>
                 <h1>Leandro Fidel Ruano</h1>
                 <p>Estudiante de Ingeniería en Sistemas de Información y desarrollador orientado al front-end.</p>
